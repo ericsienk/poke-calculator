@@ -1,10 +1,10 @@
 (function(angular) {
     'use strict';
 
-    angular.module('pokecalc.service.dex', [])
+    angular.module('pokecalc.services.dex', [])
         .factory('dexService', ['$http', function($http) {
             var genMap = {
-                2: 'common/data/dex.json'
+                2: '/common/data/dex.json'
             }
 
             return {

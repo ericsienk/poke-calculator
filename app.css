@@ -1,0 +1,36 @@
+.body-content {
+  padding: 50px 9px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.autosuggestWrapper {
+  position: absolute;
+  z-index: 999;
+  overflow-y: scroll;
+  box-shadow: 0 3px 4px -1px #666;
+}
+
+.autosuggestWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.autosuggestContainer {
+  margin-left: 0;
+  position: relative;
+  background: white;
+  padding: 9px;
+  -webkit-margin-after: 0;
+}
+
+.autosuggestItem {
+  list-style: none;
+  padding: 6px;
+}
+
+.autosuggestItem:hover, .autosuggestItem.item-selected {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(255, 64, 64);
+  font-style: italic;
+}

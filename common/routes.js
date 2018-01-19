@@ -1,6 +1,6 @@
 (function (angular) {
     'use strict';
-    angular.module('pokecalc').constant('ROUTES', {
+    angular.module('pokecalc.routes', []).constant('ROUTES', {
         DV: '/dv',
     });
 }(angular));

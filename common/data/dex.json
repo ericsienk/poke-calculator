@@ -1,1 +1,1507 @@
-dex.html:4542 (251) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, …][0 … 99]0: {name: "Abra", evos: Array(1), stats: {…}}1: {name: "Alakazam", evos: Array(0), stats: {…}}2: evos: ["Alakazam"]0: "Alakazam"length: 1__proto__: Array(0)name: "Kadabra"stats: atk: 35def: 30hp: 40spa: 120spd: 70spe: 105types: ["Psychic"]0: "Psychic"length: 1__proto__: Array(0)__proto__: Object__proto__: Object3: {name: "Aerodactyl", evos: Array(0), stats: {…}}4: {name: "Aipom", evos: Array(0), stats: {…}}5: {name: "Articuno", evos: Array(0), stats: {…}}6: {name: "Bellsprout", evos: Array(1), stats: {…}}7: {name: "Victreebel", evos: Array(0), stats: {…}}8: {name: "Weepinbell", evos: Array(1), stats: {…}}9: {name: "Bulbasaur", evos: Array(1), stats: {…}}10: {name: "Ivysaur", evos: Array(1), stats: {…}}11: {name: "Venusaur", evos: Array(0), stats: {…}}12: {name: "Butterfree", evos: Array(0), stats: {…}}13: {name: "Caterpie", evos: Array(1), stats: {…}}14: {name: "Metapod", evos: Array(1), stats: {…}}15: {name: "Celebi", evos: Array(0), stats: {…}}16: {name: "Blissey", evos: Array(0), stats: {…}}17: {name: "Chansey", evos: Array(1), stats: {…}}18: {name: "Charizard", evos: Array(0), stats: {…}}19: {name: "Charmander", evos: Array(1), stats: {…}}20: {name: "Charmeleon", evos: Array(1), stats: {…}}21: {name: "Bayleef", evos: Array(1), stats: {…}}22: {name: "Chikorita", evos: Array(1), stats: {…}}23: {name: "Meganium", evos: Array(0), stats: {…}}24: {name: "Chinchou", evos: Array(1), stats: {…}}25: {name: "Lanturn", evos: Array(0), stats: {…}}26: {name: "Clefable", evos: Array(0), stats: {…}}27: {name: "Clefairy", evos: Array(1), stats: {…}}28: {name: "Cleffa", evos: Array(1), stats: {…}}29: {name: "Corsola", evos: Array(0), stats: {…}}30: {name: "Cubone", evos: Array(1), stats: {…}}31: {name: "Marowak", evos: Array(0), stats: {…}}32: {name: "Cyndaquil", evos: Array(1), stats: {…}}33: {name: "Quilava", evos: Array(1), stats: {…}}34: {name: "Typhlosion", evos: Array(0), stats: {…}}35: {name: "Delibird", evos: Array(0), stats: {…}}36: {name: "Diglett", evos: Array(1), stats: {…}}37: {name: "Dugtrio", evos: Array(0), stats: {…}}38: {name: "Ditto", evos: Array(0), stats: {…}}39: {name: "Dodrio", evos: Array(0), stats: {…}}40: {name: "Doduo", evos: Array(1), stats: {…}}41: {name: "Dragonair", evos: Array(1), stats: {…}}42: {name: "Dragonite", evos: Array(0), stats: {…}}43: {name: "Dratini", evos: Array(1), stats: {…}}44: {name: "Drowzee", evos: Array(1), stats: {…}}45: {name: "Hypno", evos: Array(0), stats: {…}}46: {name: "Dunsparce", evos: Array(0), stats: {…}}47: {name: "Eevee", evos: Array(5), stats: {…}}48: {name: "Espeon", evos: Array(0), stats: {…}}49: {name: "Flareon", evos: Array(0), stats: {…}}50: {name: "Jolteon", evos: Array(0), stats: {…}}51: {name: "Umbreon", evos: Array(0), stats: {…}}52: {name: "Vaporeon", evos: Array(0), stats: {…}}53: {name: "Arbok", evos: Array(0), stats: {…}}54: {name: "Ekans", evos: Array(1), stats: {…}}55: {name: "Electabuzz", evos: Array(0), stats: {…}}56: {name: "Elekid", evos: Array(1), stats: {…}}57: {name: "Entei", evos: Array(0), stats: {…}}58: {name: "Exeggcute", evos: Array(1), stats: {…}}59: {name: "Exeggutor", evos: Array(0), stats: {…}}60: {name: "Farfetch'd", evos: Array(0), stats: {…}}61: {name: "Gastly", evos: Array(1), stats: {…}}62: {name: "Gengar", evos: Array(0), stats: {…}}63: {name: "Haunter", evos: Array(1), stats: {…}}64: {name: "Geodude", evos: Array(1), stats: {…}}65: {name: "Golem", evos: Array(0), stats: {…}}66: {name: "Graveler", evos: Array(1), stats: {…}}67: {name: "Girafarig", evos: Array(0), stats: {…}}68: {name: "Gligar", evos: Array(0), stats: {…}}69: {name: "Goldeen", evos: Array(1), stats: {…}}70: {name: "Seaking", evos: Array(0), stats: {…}}71: {name: "Grimer", evos: Array(1), stats: {…}}72: {name: "Muk", evos: Array(0), stats: {…}}73: {name: "Arcanine", evos: Array(0), stats: {…}}74: {name: "Growlithe", evos: Array(1), stats: {…}}75: {name: "Heracross", evos: Array(0), stats: {…}}76: {name: "Hitmonchan", evos: Array(0), stats: {…}}77: {name: "Hitmonlee", evos: Array(0), stats: {…}}78: {name: "Hitmontop", evos: Array(0), stats: {…}}79: {name: "Tyrogue", evos: Array(3), stats: {…}}80: {name: "Ho-Oh", evos: Array(0), stats: {…}}81: {name: "Hoothoot", evos: Array(1), stats: {…}}82: {name: "Noctowl", evos: Array(0), stats: {…}}83: {name: "Hoppip", evos: Array(1), stats: {…}}84: {name: "Jumpluff", evos: Array(0), stats: {…}}85: {name: "Skiploom", evos: Array(1), stats: {…}}86: {name: "Horsea", evos: Array(1), stats: {…}}87: {name: "Kingdra", evos: Array(0), stats: {…}}88: {name: "Seadra", evos: Array(1), stats: {…}}89: {name: "Houndoom", evos: Array(0), stats: {…}}90: {name: "Houndour", evos: Array(1), stats: {…}}91: {name: "Igglybuff", evos: Array(1), stats: {…}}92: {name: "Jigglypuff", evos: Array(1), stats: {…}}93: {name: "Wigglytuff", evos: Array(0), stats: {…}}94: {name: "Jynx", evos: Array(0), stats: {…}}95: {name: "Smoochum", evos: Array(1), stats: {…}}96: {name: "Kabuto", evos: Array(1), stats: {…}}97: {name: "Kabutops", evos: Array(0), stats: {…}}98: {name: "Kangaskhan", evos: Array(0), stats: {…}}99: {name: "Koffing", evos: Array(1), stats: {…}}[100 … 199][200 … 250]length: 251__proto__: Array(0)
+[ {
+  "name":"Abra", "evos":["Kadabra"], "stats": {
+    "hp": 25, "atk":20, "def":15, "spa":105, "spd":55, "spe":90, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Alakazam", "evos":[], "stats": {
+    "hp": 55, "atk":50, "def":45, "spa":135, "spd":85, "spe":120, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Kadabra", "evos":["Alakazam"], "stats": {
+    "hp": 40, "atk":35, "def":30, "spa":120, "spd":70, "spe":105, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Aerodactyl", "evos":[], "stats": {
+    "hp": 80, "atk":105, "def":65, "spa":60, "spd":75, "spe":130, "types":["Rock", "Flying"]
+  }
+}
+
+, {
+  "name":"Aipom", "evos":[], "stats": {
+    "hp": 55, "atk":70, "def":55, "spa":40, "spd":55, "spe":85, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Articuno", "evos":[], "stats": {
+    "hp": 90, "atk":85, "def":100, "spa":95, "spd":125, "spe":85, "types":["Flying", "Ice"]
+  }
+}
+
+, {
+  "name":"Bellsprout", "evos":["Weepinbell"], "stats": {
+    "hp": 50, "atk":75, "def":35, "spa":70, "spd":30, "spe":40, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Victreebel", "evos":[], "stats": {
+    "hp": 80, "atk":105, "def":65, "spa":100, "spd":60, "spe":70, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Weepinbell", "evos":["Victreebel"], "stats": {
+    "hp": 65, "atk":90, "def":50, "spa":85, "spd":45, "spe":55, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Bulbasaur", "evos":["Ivysaur"], "stats": {
+    "hp": 45, "atk":49, "def":49, "spa":65, "spd":65, "spe":45, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Ivysaur", "evos":["Venusaur"], "stats": {
+    "hp": 60, "atk":62, "def":63, "spa":80, "spd":80, "spe":60, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Venusaur", "evos":[], "stats": {
+    "hp": 80, "atk":82, "def":83, "spa":100, "spd":100, "spe":80, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Butterfree", "evos":[], "stats": {
+    "hp": 60, "atk":45, "def":50, "spa":80, "spd":80, "spe":70, "types":["Bug", "Flying"]
+  }
+}
+
+, {
+  "name":"Caterpie", "evos":["Metapod"], "stats": {
+    "hp": 45, "atk":30, "def":35, "spa":20, "spd":20, "spe":45, "types":["Bug"]
+  }
+}
+
+, {
+  "name":"Metapod", "evos":["Butterfree"], "stats": {
+    "hp": 50, "atk":20, "def":55, "spa":25, "spd":25, "spe":30, "types":["Bug"]
+  }
+}
+
+, {
+  "name":"Celebi", "evos":[], "stats": {
+    "hp": 100, "atk":100, "def":100, "spa":100, "spd":100, "spe":100, "types":["Grass", "Psychic"]
+  }
+}
+
+, {
+  "name":"Blissey", "evos":[], "stats": {
+    "hp": 255, "atk":10, "def":10, "spa":75, "spd":135, "spe":55, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Chansey", "evos":["Blissey"], "stats": {
+    "hp": 250, "atk":5, "def":5, "spa":35, "spd":105, "spe":50, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Charizard", "evos":[], "stats": {
+    "hp": 78, "atk":84, "def":78, "spa":109, "spd":85, "spe":100, "types":["Fire", "Flying"]
+  }
+}
+
+, {
+  "name":"Charmander", "evos":["Charmeleon"], "stats": {
+    "hp": 39, "atk":52, "def":43, "spa":60, "spd":50, "spe":65, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Charmeleon", "evos":["Charizard"], "stats": {
+    "hp": 58, "atk":64, "def":58, "spa":80, "spd":65, "spe":80, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Bayleef", "evos":["Meganium"], "stats": {
+    "hp": 60, "atk":62, "def":80, "spa":63, "spd":80, "spe":60, "types":["Grass"]
+  }
+}
+
+, {
+  "name":"Chikorita", "evos":["Bayleef"], "stats": {
+    "hp": 45, "atk":49, "def":65, "spa":49, "spd":65, "spe":45, "types":["Grass"]
+  }
+}
+
+, {
+  "name":"Meganium", "evos":[], "stats": {
+    "hp": 80, "atk":82, "def":100, "spa":83, "spd":100, "spe":80, "types":["Grass"]
+  }
+}
+
+, {
+  "name":"Chinchou", "evos":["Lanturn"], "stats": {
+    "hp": 75, "atk":38, "def":38, "spa":56, "spd":56, "spe":67, "types":["Electric", "Water"]
+  }
+}
+
+, {
+  "name":"Lanturn", "evos":[], "stats": {
+    "hp": 125, "atk":58, "def":58, "spa":76, "spd":76, "spe":67, "types":["Electric", "Water"]
+  }
+}
+
+, {
+  "name":"Clefable", "evos":[], "stats": {
+    "hp": 95, "atk":70, "def":73, "spa":85, "spd":90, "spe":60, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Clefairy", "evos":["Clefable"], "stats": {
+    "hp": 70, "atk":45, "def":48, "spa":60, "spd":65, "spe":35, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Cleffa", "evos":["Clefairy"], "stats": {
+    "hp": 50, "atk":25, "def":28, "spa":45, "spd":55, "spe":15, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Corsola", "evos":[], "stats": {
+    "hp": 55, "atk":55, "def":85, "spa":65, "spd":85, "spe":35, "types":["Rock", "Water"]
+  }
+}
+
+, {
+  "name":"Cubone", "evos":["Marowak"], "stats": {
+    "hp": 50, "atk":50, "def":95, "spa":40, "spd":50, "spe":35, "types":["Ground"]
+  }
+}
+
+, {
+  "name":"Marowak", "evos":[], "stats": {
+    "hp": 60, "atk":80, "def":110, "spa":50, "spd":80, "spe":45, "types":["Ground"]
+  }
+}
+
+, {
+  "name":"Cyndaquil", "evos":["Quilava"], "stats": {
+    "hp": 39, "atk":52, "def":43, "spa":60, "spd":50, "spe":65, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Quilava", "evos":["Typhlosion"], "stats": {
+    "hp": 58, "atk":64, "def":58, "spa":80, "spd":65, "spe":80, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Typhlosion", "evos":[], "stats": {
+    "hp": 78, "atk":84, "def":78, "spa":109, "spd":85, "spe":100, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Delibird", "evos":[], "stats": {
+    "hp": 45, "atk":55, "def":45, "spa":65, "spd":45, "spe":75, "types":["Flying", "Ice"]
+  }
+}
+
+, {
+  "name":"Diglett", "evos":["Dugtrio"], "stats": {
+    "hp": 10, "atk":55, "def":25, "spa":35, "spd":45, "spe":95, "types":["Ground"]
+  }
+}
+
+, {
+  "name":"Dugtrio", "evos":[], "stats": {
+    "hp": 35, "atk":80, "def":50, "spa":50, "spd":70, "spe":120, "types":["Ground"]
+  }
+}
+
+, {
+  "name":"Ditto", "evos":[], "stats": {
+    "hp": 48, "atk":48, "def":48, "spa":48, "spd":48, "spe":48, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Dodrio", "evos":[], "stats": {
+    "hp": 60, "atk":110, "def":70, "spa":60, "spd":60, "spe":100, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Doduo", "evos":["Dodrio"], "stats": {
+    "hp": 35, "atk":85, "def":45, "spa":35, "spd":35, "spe":75, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Dragonair", "evos":["Dragonite"], "stats": {
+    "hp": 61, "atk":84, "def":65, "spa":70, "spd":70, "spe":70, "types":["Dragon"]
+  }
+}
+
+, {
+  "name":"Dragonite", "evos":[], "stats": {
+    "hp": 91, "atk":134, "def":95, "spa":100, "spd":100, "spe":80, "types":["Dragon", "Flying"]
+  }
+}
+
+, {
+  "name":"Dratini", "evos":["Dragonair"], "stats": {
+    "hp": 41, "atk":64, "def":45, "spa":50, "spd":50, "spe":50, "types":["Dragon"]
+  }
+}
+
+, {
+  "name":"Drowzee", "evos":["Hypno"], "stats": {
+    "hp": 60, "atk":48, "def":45, "spa":43, "spd":90, "spe":42, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Hypno", "evos":[], "stats": {
+    "hp": 85, "atk":73, "def":70, "spa":73, "spd":115, "spe":67, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Dunsparce", "evos":[], "stats": {
+    "hp": 100, "atk":70, "def":70, "spa":65, "spd":65, "spe":45, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Eevee", "evos":["Espeon", "Flareon", "Jolteon", "Umbreon", "Vaporeon"], "stats": {
+    "hp": 55, "atk":55, "def":50, "spa":45, "spd":65, "spe":55, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Espeon", "evos":[], "stats": {
+    "hp": 65, "atk":65, "def":60, "spa":130, "spd":95, "spe":110, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Flareon", "evos":[], "stats": {
+    "hp": 65, "atk":130, "def":60, "spa":95, "spd":110, "spe":65, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Jolteon", "evos":[], "stats": {
+    "hp": 65, "atk":65, "def":60, "spa":110, "spd":95, "spe":130, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Umbreon", "evos":[], "stats": {
+    "hp": 95, "atk":65, "def":110, "spa":60, "spd":130, "spe":65, "types":["Dark"]
+  }
+}
+
+, {
+  "name":"Vaporeon", "evos":[], "stats": {
+    "hp": 130, "atk":65, "def":60, "spa":110, "spd":95, "spe":65, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Arbok", "evos":[], "stats": {
+    "hp": 60, "atk":85, "def":69, "spa":65, "spd":79, "spe":80, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Ekans", "evos":["Arbok"], "stats": {
+    "hp": 35, "atk":60, "def":44, "spa":40, "spd":54, "spe":55, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Electabuzz", "evos":[], "stats": {
+    "hp": 65, "atk":83, "def":57, "spa":95, "spd":85, "spe":105, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Elekid", "evos":["Electabuzz"], "stats": {
+    "hp": 45, "atk":63, "def":37, "spa":65, "spd":55, "spe":95, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Entei", "evos":[], "stats": {
+    "hp": 115, "atk":115, "def":85, "spa":90, "spd":75, "spe":100, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Exeggcute", "evos":["Exeggutor"], "stats": {
+    "hp": 60, "atk":40, "def":80, "spa":60, "spd":45, "spe":40, "types":["Grass", "Psychic"]
+  }
+}
+
+, {
+  "name":"Exeggutor", "evos":[], "stats": {
+    "hp": 95, "atk":95, "def":85, "spa":125, "spd":65, "spe":55, "types":["Grass", "Psychic"]
+  }
+}
+
+, {
+  "name":"Farfetch'd", "evos":[], "stats": {
+    "hp": 52, "atk":65, "def":55, "spa":58, "spd":62, "spe":60, "types":["Normal", "Flying"]
+  }
+}
+
+, {
+  "name":"Gastly", "evos":["Haunter"], "stats": {
+    "hp": 30, "atk":35, "def":30, "spa":100, "spd":35, "spe":80, "types":["Ghost", "Poison"]
+  }
+}
+
+, {
+  "name":"Gengar", "evos":[], "stats": {
+    "hp": 60, "atk":65, "def":60, "spa":130, "spd":75, "spe":110, "types":["Ghost", "Poison"]
+  }
+}
+
+, {
+  "name":"Haunter", "evos":["Gengar"], "stats": {
+    "hp": 45, "atk":50, "def":45, "spa":115, "spd":55, "spe":95, "types":["Ghost", "Poison"]
+  }
+}
+
+, {
+  "name":"Geodude", "evos":["Graveler"], "stats": {
+    "hp": 40, "atk":80, "def":100, "spa":30, "spd":30, "spe":20, "types":["Ground", "Rock"]
+  }
+}
+
+, {
+  "name":"Golem", "evos":[], "stats": {
+    "hp": 80, "atk":110, "def":130, "spa":55, "spd":65, "spe":45, "types":["Ground", "Rock"]
+  }
+}
+
+, {
+  "name":"Graveler", "evos":["Golem"], "stats": {
+    "hp": 55, "atk":95, "def":115, "spa":45, "spd":45, "spe":35, "types":["Ground", "Rock"]
+  }
+}
+
+, {
+  "name":"Girafarig", "evos":[], "stats": {
+    "hp": 70, "atk":80, "def":65, "spa":90, "spd":65, "spe":85, "types":["Normal", "Psychic"]
+  }
+}
+
+, {
+  "name":"Gligar", "evos":[], "stats": {
+    "hp": 65, "atk":75, "def":105, "spa":35, "spd":65, "spe":85, "types":["Ground", "Flying"]
+  }
+}
+
+, {
+  "name":"Goldeen", "evos":["Seaking"], "stats": {
+    "hp": 45, "atk":67, "def":60, "spa":35, "spd":50, "spe":63, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Seaking", "evos":[], "stats": {
+    "hp": 80, "atk":92, "def":65, "spa":65, "spd":80, "spe":68, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Grimer", "evos":["Muk"], "stats": {
+    "hp": 80, "atk":80, "def":50, "spa":40, "spd":50, "spe":25, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Muk", "evos":[], "stats": {
+    "hp": 105, "atk":105, "def":75, "spa":65, "spd":100, "spe":50, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Arcanine", "evos":[], "stats": {
+    "hp": 90, "atk":110, "def":80, "spa":100, "spd":80, "spe":95, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Growlithe", "evos":["Arcanine"], "stats": {
+    "hp": 55, "atk":70, "def":45, "spa":70, "spd":50, "spe":60, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Heracross", "evos":[], "stats": {
+    "hp": 80, "atk":125, "def":75, "spa":40, "spd":95, "spe":85, "types":["Bug", "Fighting"]
+  }
+}
+
+, {
+  "name":"Hitmonchan", "evos":[], "stats": {
+    "hp": 50, "atk":105, "def":79, "spa":35, "spd":110, "spe":76, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Hitmonlee", "evos":[], "stats": {
+    "hp": 50, "atk":120, "def":53, "spa":35, "spd":110, "spe":87, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Hitmontop", "evos":[], "stats": {
+    "hp": 50, "atk":95, "def":95, "spa":35, "spd":110, "spe":70, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Tyrogue", "evos":["Hitmonchan", "Hitmonlee", "Hitmontop"], "stats": {
+    "hp": 35, "atk":35, "def":35, "spa":35, "spd":35, "spe":35, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Ho-Oh", "evos":[], "stats": {
+    "hp": 106, "atk":130, "def":90, "spa":110, "spd":154, "spe":90, "types":["Fire", "Flying"]
+  }
+}
+
+, {
+  "name":"Hoothoot", "evos":["Noctowl"], "stats": {
+    "hp": 60, "atk":30, "def":30, "spa":36, "spd":56, "spe":50, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Noctowl", "evos":[], "stats": {
+    "hp": 100, "atk":50, "def":50, "spa":76, "spd":96, "spe":70, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Hoppip", "evos":["Skiploom"], "stats": {
+    "hp": 35, "atk":35, "def":40, "spa":35, "spd":55, "spe":50, "types":["Flying", "Grass"]
+  }
+}
+
+, {
+  "name":"Jumpluff", "evos":[], "stats": {
+    "hp": 75, "atk":55, "def":70, "spa":55, "spd":85, "spe":110, "types":["Flying", "Grass"]
+  }
+}
+
+, {
+  "name":"Skiploom", "evos":["Jumpluff"], "stats": {
+    "hp": 55, "atk":45, "def":50, "spa":45, "spd":65, "spe":80, "types":["Flying", "Grass"]
+  }
+}
+
+, {
+  "name":"Horsea", "evos":["Seadra"], "stats": {
+    "hp": 30, "atk":40, "def":70, "spa":70, "spd":25, "spe":60, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Kingdra", "evos":[], "stats": {
+    "hp": 75, "atk":95, "def":95, "spa":95, "spd":95, "spe":85, "types":["Dragon", "Water"]
+  }
+}
+
+, {
+  "name":"Seadra", "evos":["Kingdra"], "stats": {
+    "hp": 55, "atk":65, "def":95, "spa":95, "spd":45, "spe":85, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Houndoom", "evos":[], "stats": {
+    "hp": 75, "atk":90, "def":50, "spa":110, "spd":80, "spe":95, "types":["Dark", "Fire"]
+  }
+}
+
+, {
+  "name":"Houndour", "evos":["Houndoom"], "stats": {
+    "hp": 45, "atk":60, "def":30, "spa":80, "spd":50, "spe":65, "types":["Dark", "Fire"]
+  }
+}
+
+, {
+  "name":"Igglybuff", "evos":["Jigglypuff"], "stats": {
+    "hp": 90, "atk":30, "def":15, "spa":40, "spd":20, "spe":15, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Jigglypuff", "evos":["Wigglytuff"], "stats": {
+    "hp": 115, "atk":45, "def":20, "spa":45, "spd":25, "spe":20, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Wigglytuff", "evos":[], "stats": {
+    "hp": 140, "atk":70, "def":45, "spa":75, "spd":50, "spe":45, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Jynx", "evos":[], "stats": {
+    "hp": 65, "atk":50, "def":35, "spa":115, "spd":95, "spe":95, "types":["Ice", "Psychic"]
+  }
+}
+
+, {
+  "name":"Smoochum", "evos":["Jynx"], "stats": {
+    "hp": 45, "atk":30, "def":15, "spa":85, "spd":65, "spe":65, "types":["Ice", "Psychic"]
+  }
+}
+
+, {
+  "name":"Kabuto", "evos":["Kabutops"], "stats": {
+    "hp": 30, "atk":80, "def":90, "spa":55, "spd":45, "spe":55, "types":["Rock", "Water"]
+  }
+}
+
+, {
+  "name":"Kabutops", "evos":[], "stats": {
+    "hp": 60, "atk":115, "def":105, "spa":65, "spd":70, "spe":80, "types":["Rock", "Water"]
+  }
+}
+
+, {
+  "name":"Kangaskhan", "evos":[], "stats": {
+    "hp": 105, "atk":95, "def":80, "spa":40, "spd":80, "spe":90, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Koffing", "evos":["Weezing"], "stats": {
+    "hp": 40, "atk":65, "def":95, "spa":60, "spd":45, "spe":35, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Weezing", "evos":[], "stats": {
+    "hp": 65, "atk":90, "def":120, "spa":85, "spd":70, "spe":60, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Kingler", "evos":[], "stats": {
+    "hp": 55, "atk":130, "def":115, "spa":50, "spd":50, "spe":75, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Krabby", "evos":["Kingler"], "stats": {
+    "hp": 30, "atk":105, "def":90, "spa":25, "spd":25, "spe":50, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Lapras", "evos":[], "stats": {
+    "hp": 130, "atk":85, "def":80, "spa":85, "spd":95, "spe":60, "types":["Ice", "Water"]
+  }
+}
+
+, {
+  "name":"Larvitar", "evos":["Pupitar"], "stats": {
+    "hp": 50, "atk":64, "def":50, "spa":45, "spd":50, "spe":41, "types":["Ground", "Rock"]
+  }
+}
+
+, {
+  "name":"Pupitar", "evos":["Tyranitar"], "stats": {
+    "hp": 70, "atk":84, "def":70, "spa":65, "spd":70, "spe":51, "types":["Ground", "Rock"]
+  }
+}
+
+, {
+  "name":"Tyranitar", "evos":[], "stats": {
+    "hp": 100, "atk":134, "def":110, "spa":95, "spd":100, "spe":61, "types":["Dark", "Rock"]
+  }
+}
+
+, {
+  "name":"Ledian", "evos":[], "stats": {
+    "hp": 55, "atk":35, "def":50, "spa":55, "spd":110, "spe":85, "types":["Bug", "Flying"]
+  }
+}
+
+, {
+  "name":"Ledyba", "evos":["Ledian"], "stats": {
+    "hp": 40, "atk":20, "def":30, "spa":40, "spd":80, "spe":55, "types":["Bug", "Flying"]
+  }
+}
+
+, {
+  "name":"Lickitung", "evos":[], "stats": {
+    "hp": 90, "atk":55, "def":75, "spa":60, "spd":75, "spe":30, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Lugia", "evos":[], "stats": {
+    "hp": 106, "atk":90, "def":130, "spa":90, "spd":154, "spe":110, "types":["Flying", "Psychic"]
+  }
+}
+
+, {
+  "name":"Machamp", "evos":[], "stats": {
+    "hp": 90, "atk":130, "def":80, "spa":65, "spd":85, "spe":55, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Machoke", "evos":["Machamp"], "stats": {
+    "hp": 80, "atk":100, "def":70, "spa":50, "spd":60, "spe":45, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Machop", "evos":["Machoke"], "stats": {
+    "hp": 70, "atk":80, "def":50, "spa":35, "spd":35, "spe":35, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Gyarados", "evos":[], "stats": {
+    "hp": 95, "atk":125, "def":79, "spa":60, "spd":100, "spe":81, "types":["Flying", "Water"]
+  }
+}
+
+, {
+  "name":"Magikarp", "evos":["Gyarados"], "stats": {
+    "hp": 20, "atk":10, "def":55, "spa":15, "spd":20, "spe":80, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Magby", "evos":["Magmar"], "stats": {
+    "hp": 45, "atk":75, "def":37, "spa":70, "spd":55, "spe":83, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Magmar", "evos":[], "stats": {
+    "hp": 65, "atk":95, "def":57, "spa":100, "spd":85, "spe":93, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Magnemite", "evos":["Magneton"], "stats": {
+    "hp": 25, "atk":35, "def":70, "spa":95, "spd":55, "spe":45, "types":["Electric", "Steel"]
+  }
+}
+
+, {
+  "name":"Magneton", "evos":[], "stats": {
+    "hp": 50, "atk":60, "def":95, "spa":120, "spd":70, "spe":70, "types":["Electric", "Steel"]
+  }
+}
+
+, {
+  "name":"Mankey", "evos":["Primeape"], "stats": {
+    "hp": 40, "atk":80, "def":35, "spa":35, "spd":45, "spe":70, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Primeape", "evos":[], "stats": {
+    "hp": 65, "atk":105, "def":60, "spa":60, "spd":70, "spe":95, "types":["Fighting"]
+  }
+}
+
+, {
+  "name":"Mantine", "evos":[], "stats": {
+    "hp": 65, "atk":40, "def":70, "spa":80, "spd":140, "spe":70, "types":["Flying", "Water"]
+  }
+}
+
+, {
+  "name":"Ampharos", "evos":[], "stats": {
+    "hp": 90, "atk":75, "def":75, "spa":115, "spd":90, "spe":55, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Flaaffy", "evos":["Ampharos"], "stats": {
+    "hp": 70, "atk":55, "def":55, "spa":80, "spd":60, "spe":45, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Mareep", "evos":["Flaaffy"], "stats": {
+    "hp": 55, "atk":40, "def":40, "spa":65, "spd":45, "spe":35, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Azumarill", "evos":[], "stats": {
+    "hp": 100, "atk":50, "def":80, "spa":50, "spd":80, "spe":50, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Marill", "evos":["Azumarill"], "stats": {
+    "hp": 70, "atk":20, "def":50, "spa":20, "spd":50, "spe":40, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Meowth", "evos":["Persian"], "stats": {
+    "hp": 40, "atk":45, "def":35, "spa":40, "spd":40, "spe":90, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Persian", "evos":[], "stats": {
+    "hp": 65, "atk":70, "def":60, "spa":65, "spd":65, "spe":115, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Mewtwo", "evos":[], "stats": {
+    "hp": 106, "atk":110, "def":90, "spa":154, "spd":90, "spe":130, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Mew", "evos":[], "stats": {
+    "hp": 100, "atk":100, "def":100, "spa":100, "spd":100, "spe":100, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Miltank", "evos":[], "stats": {
+    "hp": 95, "atk":80, "def":105, "spa":40, "spd":70, "spe":100, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Mr. Mime", "evos":[], "stats": {
+    "hp": 40, "atk":45, "def":65, "spa":100, "spd":120, "spe":90, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Misdreavus", "evos":[], "stats": {
+    "hp": 60, "atk":60, "def":60, "spa":85, "spd":85, "spe":85, "types":["Ghost"]
+  }
+}
+
+, {
+  "name":"Moltres", "evos":[], "stats": {
+    "hp": 90, "atk":100, "def":90, "spa":125, "spd":85, "spe":90, "types":["Fire", "Flying"]
+  }
+}
+
+, {
+  "name":"Murkrow", "evos":[], "stats": {
+    "hp": 60, "atk":85, "def":42, "spa":85, "spd":42, "spe":91, "types":["Dark", "Flying"]
+  }
+}
+
+, {
+  "name":"Natu", "evos":["Xatu"], "stats": {
+    "hp": 40, "atk":50, "def":45, "spa":70, "spd":45, "spe":70, "types":["Flying", "Psychic"]
+  }
+}
+
+, {
+  "name":"Xatu", "evos":[], "stats": {
+    "hp": 65, "atk":75, "def":70, "spa":95, "spd":70, "spe":95, "types":["Flying", "Psychic"]
+  }
+}
+
+, {
+  "name":"Nidoqueen", "evos":[], "stats": {
+    "hp": 90, "atk":82, "def":87, "spa":75, "spd":85, "spe":76, "types":["Ground", "Poison"]
+  }
+}
+
+, {
+  "name":"Nidoran-F", "evos":["Nidorina"], "stats": {
+    "hp": 55, "atk":47, "def":52, "spa":40, "spd":40, "spe":41, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Nidorina", "evos":["Nidoqueen"], "stats": {
+    "hp": 70, "atk":62, "def":67, "spa":55, "spd":55, "spe":56, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Nidoking", "evos":[], "stats": {
+    "hp": 81, "atk":92, "def":77, "spa":85, "spd":75, "spe":85, "types":["Ground", "Poison"]
+  }
+}
+
+, {
+  "name":"Nidoran-M", "evos":["Nidorino"], "stats": {
+    "hp": 46, "atk":57, "def":40, "spa":40, "spd":40, "spe":50, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Nidorino", "evos":["Nidoking"], "stats": {
+    "hp": 61, "atk":72, "def":57, "spa":55, "spd":55, "spe":65, "types":["Poison"]
+  }
+}
+
+, {
+  "name":"Bellossom", "evos":[], "stats": {
+    "hp": 75, "atk":80, "def":85, "spa":90, "spd":100, "spe":50, "types":["Grass"]
+  }
+}
+
+, {
+  "name":"Gloom", "evos":["Bellossom", "Vileplume"], "stats": {
+    "hp": 60, "atk":65, "def":70, "spa":85, "spd":75, "spe":40, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Oddish", "evos":["Gloom"], "stats": {
+    "hp": 45, "atk":50, "def":55, "spa":75, "spd":65, "spe":30, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Vileplume", "evos":[], "stats": {
+    "hp": 75, "atk":80, "def":85, "spa":100, "spd":90, "spe":50, "types":["Grass", "Poison"]
+  }
+}
+
+, {
+  "name":"Omanyte", "evos":["Omastar"], "stats": {
+    "hp": 35, "atk":40, "def":100, "spa":90, "spd":55, "spe":35, "types":["Rock", "Water"]
+  }
+}
+
+, {
+  "name":"Omastar", "evos":[], "stats": {
+    "hp": 70, "atk":60, "def":125, "spa":115, "spd":70, "spe":55, "types":["Rock", "Water"]
+  }
+}
+
+, {
+  "name":"Onix", "evos":["Steelix"], "stats": {
+    "hp": 35, "atk":45, "def":160, "spa":30, "spd":45, "spe":70, "types":["Ground", "Rock"]
+  }
+}
+
+, {
+  "name":"Steelix", "evos":[], "stats": {
+    "hp": 75, "atk":85, "def":200, "spa":55, "spd":65, "spe":30, "types":["Ground", "Steel"]
+  }
+}
+
+, {
+  "name":"Paras", "evos":["Parasect"], "stats": {
+    "hp": 35, "atk":70, "def":55, "spa":45, "spd":55, "spe":25, "types":["Bug", "Grass"]
+  }
+}
+
+, {
+  "name":"Parasect", "evos":[], "stats": {
+    "hp": 60, "atk":95, "def":80, "spa":60, "spd":80, "spe":30, "types":["Bug", "Grass"]
+  }
+}
+
+, {
+  "name":"Donphan", "evos":[], "stats": {
+    "hp": 90, "atk":120, "def":120, "spa":60, "spd":60, "spe":50, "types":["Ground"]
+  }
+}
+
+, {
+  "name":"Phanpy", "evos":["Donphan"], "stats": {
+    "hp": 90, "atk":60, "def":60, "spa":40, "spd":40, "spe":40, "types":["Ground"]
+  }
+}
+
+, {
+  "name":"Pidgeot", "evos":[], "stats": {
+    "hp": 83, "atk":80, "def":75, "spa":70, "spd":70, "spe":91, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Pidgeotto", "evos":["Pidgeot"], "stats": {
+    "hp": 63, "atk":60, "def":55, "spa":50, "spd":50, "spe":71, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Pidgey", "evos":["Pidgeotto"], "stats": {
+    "hp": 40, "atk":45, "def":40, "spa":35, "spd":35, "spe":56, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Pichu", "evos":["Pikachu"], "stats": {
+    "hp": 20, "atk":40, "def":15, "spa":35, "spd":35, "spe":60, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Pikachu", "evos":["Raichu"], "stats": {
+    "hp": 35, "atk":55, "def":30, "spa":50, "spd":40, "spe":90, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Raichu", "evos":[], "stats": {
+    "hp": 60, "atk":90, "def":55, "spa":90, "spd":80, "spe":100, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Forretress", "evos":[], "stats": {
+    "hp": 75, "atk":90, "def":140, "spa":60, "spd":60, "spe":40, "types":["Bug", "Steel"]
+  }
+}
+
+, {
+  "name":"Pineco", "evos":["Forretress"], "stats": {
+    "hp": 50, "atk":65, "def":90, "spa":35, "spd":35, "spe":15, "types":["Bug"]
+  }
+}
+
+, {
+  "name":"Pinsir", "evos":[], "stats": {
+    "hp": 65, "atk":125, "def":100, "spa":55, "spd":70, "spe":85, "types":["Bug"]
+  }
+}
+
+, {
+  "name":"Politoed", "evos":[], "stats": {
+    "hp": 90, "atk":75, "def":75, "spa":90, "spd":100, "spe":70, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Poliwag", "evos":["Poliwhirl"], "stats": {
+    "hp": 40, "atk":50, "def":40, "spa":40, "spd":40, "spe":90, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Poliwhirl", "evos":["Politoed", "Poliwrath"], "stats": {
+    "hp": 65, "atk":65, "def":65, "spa":50, "spd":50, "spe":90, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Poliwrath", "evos":[], "stats": {
+    "hp": 90, "atk":85, "def":95, "spa":70, "spd":90, "spe":70, "types":["Fighting", "Water"]
+  }
+}
+
+, {
+  "name":"Ponyta", "evos":["Rapidash"], "stats": {
+    "hp": 50, "atk":85, "def":55, "spa":65, "spd":65, "spe":90, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Rapidash", "evos":[], "stats": {
+    "hp": 65, "atk":100, "def":70, "spa":80, "spd":80, "spe":105, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Porygon", "evos":["Porygon2"], "stats": {
+    "hp": 65, "atk":60, "def":70, "spa":85, "spd":75, "spe":40, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Porygon2", "evos":[], "stats": {
+    "hp": 85, "atk":80, "def":90, "spa":105, "spd":95, "spe":60, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Golduck", "evos":[], "stats": {
+    "hp": 80, "atk":82, "def":78, "spa":95, "spd":80, "spe":85, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Psyduck", "evos":["Golduck"], "stats": {
+    "hp": 50, "atk":52, "def":48, "spa":65, "spd":50, "spe":55, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Qwilfish", "evos":[], "stats": {
+    "hp": 65, "atk":95, "def":75, "spa":55, "spd":55, "spe":85, "types":["Poison", "Water"]
+  }
+}
+
+, {
+  "name":"Raikou", "evos":[], "stats": {
+    "hp": 90, "atk":85, "def":75, "spa":115, "spd":100, "spe":115, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Raticate", "evos":[], "stats": {
+    "hp": 55, "atk":81, "def":60, "spa":50, "spd":70, "spe":97, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Rattata", "evos":["Raticate"], "stats": {
+    "hp": 30, "atk":56, "def":35, "spa":25, "spd":35, "spe":72, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Octillery", "evos":[], "stats": {
+    "hp": 75, "atk":105, "def":75, "spa":105, "spd":75, "spe":45, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Remoraid", "evos":["Octillery"], "stats": {
+    "hp": 35, "atk":65, "def":35, "spa":65, "spd":35, "spe":65, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Rhydon", "evos":[], "stats": {
+    "hp": 105, "atk":130, "def":120, "spa":45, "spd":45, "spe":40, "types":["Ground", "Rock"]
+  }
+}
+
+, {
+  "name":"Rhyhorn", "evos":["Rhydon"], "stats": {
+    "hp": 80, "atk":85, "def":95, "spa":30, "spd":30, "spe":25, "types":["Ground", "Rock"]
+  }
+}
+
+, {
+  "name":"Sandshrew", "evos":["Sandslash"], "stats": {
+    "hp": 50, "atk":75, "def":85, "spa":20, "spd":30, "spe":40, "types":["Ground"]
+  }
+}
+
+, {
+  "name":"Sandslash", "evos":[], "stats": {
+    "hp": 75, "atk":100, "def":110, "spa":45, "spd":55, "spe":65, "types":["Ground"]
+  }
+}
+
+, {
+  "name":"Scizor", "evos":[], "stats": {
+    "hp": 70, "atk":130, "def":100, "spa":55, "spd":80, "spe":65, "types":["Bug", "Steel"]
+  }
+}
+
+, {
+  "name":"Scyther", "evos":["Scizor"], "stats": {
+    "hp": 70, "atk":110, "def":80, "spa":55, "spd":80, "spe":105, "types":["Bug", "Flying"]
+  }
+}
+
+, {
+  "name":"Dewgong", "evos":[], "stats": {
+    "hp": 90, "atk":70, "def":80, "spa":70, "spd":95, "spe":70, "types":["Ice", "Water"]
+  }
+}
+
+, {
+  "name":"Seel", "evos":["Dewgong"], "stats": {
+    "hp": 65, "atk":45, "def":55, "spa":45, "spd":70, "spe":45, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Furret", "evos":[], "stats": {
+    "hp": 85, "atk":76, "def":64, "spa":45, "spd":55, "spe":90, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Sentret", "evos":["Furret"], "stats": {
+    "hp": 35, "atk":46, "def":34, "spa":35, "spd":45, "spe":20, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Cloyster", "evos":[], "stats": {
+    "hp": 50, "atk":95, "def":180, "spa":85, "spd":45, "spe":70, "types":["Ice", "Water"]
+  }
+}
+
+, {
+  "name":"Shellder", "evos":["Cloyster"], "stats": {
+    "hp": 30, "atk":65, "def":100, "spa":45, "spd":25, "spe":40, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Shuckle", "evos":[], "stats": {
+    "hp": 20, "atk":10, "def":230, "spa":10, "spd":230, "spe":5, "types":["Bug", "Rock"]
+  }
+}
+
+, {
+  "name":"Skarmory", "evos":[], "stats": {
+    "hp": 65, "atk":80, "def":140, "spa":40, "spd":70, "spe":70, "types":["Flying", "Steel"]
+  }
+}
+
+, {
+  "name":"Slowbro", "evos":[], "stats": {
+    "hp": 95, "atk":75, "def":110, "spa":100, "spd":80, "spe":30, "types":["Psychic", "Water"]
+  }
+}
+
+, {
+  "name":"Slowking", "evos":[], "stats": {
+    "hp": 95, "atk":75, "def":80, "spa":100, "spd":110, "spe":30, "types":["Psychic", "Water"]
+  }
+}
+
+, {
+  "name":"Slowpoke", "evos":["Slowbro", "Slowking"], "stats": {
+    "hp": 90, "atk":65, "def":65, "spa":40, "spd":40, "spe":15, "types":["Psychic", "Water"]
+  }
+}
+
+, {
+  "name":"Magcargo", "evos":[], "stats": {
+    "hp": 50, "atk":50, "def":120, "spa":80, "spd":80, "spe":30, "types":["Fire", "Rock"]
+  }
+}
+
+, {
+  "name":"Slugma", "evos":["Magcargo"], "stats": {
+    "hp": 40, "atk":40, "def":40, "spa":70, "spd":40, "spe":20, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Smeargle", "evos":[], "stats": {
+    "hp": 55, "atk":20, "def":35, "spa":20, "spd":45, "spe":75, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Sneasel", "evos":[], "stats": {
+    "hp": 55, "atk":95, "def":55, "spa":35, "spd":75, "spe":115, "types":["Dark", "Ice"]
+  }
+}
+
+, {
+  "name":"Snorlax", "evos":[], "stats": {
+    "hp": 160, "atk":110, "def":65, "spa":65, "spd":110, "spe":30, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Granbull", "evos":[], "stats": {
+    "hp": 90, "atk":120, "def":75, "spa":60, "spd":60, "spe":45, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Snubbull", "evos":["Granbull"], "stats": {
+    "hp": 60, "atk":80, "def":50, "spa":40, "spd":40, "spe":30, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Fearow", "evos":[], "stats": {
+    "hp": 65, "atk":90, "def":65, "spa":61, "spd":61, "spe":100, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Spearow", "evos":["Fearow"], "stats": {
+    "hp": 40, "atk":60, "def":30, "spa":31, "spd":31, "spe":70, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Ariados", "evos":[], "stats": {
+    "hp": 70, "atk":90, "def":70, "spa":60, "spd":60, "spe":40, "types":["Bug", "Poison"]
+  }
+}
+
+, {
+  "name":"Spinarak", "evos":["Ariados"], "stats": {
+    "hp": 40, "atk":60, "def":40, "spa":40, "spd":40, "spe":30, "types":["Bug", "Poison"]
+  }
+}
+
+, {
+  "name":"Blastoise", "evos":[], "stats": {
+    "hp": 79, "atk":83, "def":100, "spa":85, "spd":105, "spe":78, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Squirtle", "evos":["Wartortle"], "stats": {
+    "hp": 44, "atk":48, "def":65, "spa":50, "spd":64, "spe":43, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Wartortle", "evos":["Blastoise"], "stats": {
+    "hp": 59, "atk":63, "def":80, "spa":65, "spd":80, "spe":58, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Stantler", "evos":[], "stats": {
+    "hp": 73, "atk":95, "def":62, "spa":85, "spd":65, "spe":85, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Starmie", "evos":[], "stats": {
+    "hp": 60, "atk":75, "def":85, "spa":100, "spd":85, "spe":115, "types":["Psychic", "Water"]
+  }
+}
+
+, {
+  "name":"Staryu", "evos":["Starmie"], "stats": {
+    "hp": 30, "atk":45, "def":55, "spa":70, "spd":55, "spe":85, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Sudowoodo", "evos":[], "stats": {
+    "hp": 70, "atk":100, "def":115, "spa":30, "spd":65, "spe":30, "types":["Rock"]
+  }
+}
+
+, {
+  "name":"Suicune", "evos":[], "stats": {
+    "hp": 100, "atk":75, "def":115, "spa":90, "spd":115, "spe":85, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Sunflora", "evos":[], "stats": {
+    "hp": 75, "atk":75, "def":55, "spa":105, "spd":85, "spe":30, "types":["Grass"]
+  }
+}
+
+, {
+  "name":"Sunkern", "evos":["Sunflora"], "stats": {
+    "hp": 30, "atk":30, "def":30, "spa":30, "spd":30, "spe":30, "types":["Grass"]
+  }
+}
+
+, {
+  "name":"Piloswine", "evos":[], "stats": {
+    "hp": 100, "atk":100, "def":80, "spa":60, "spd":60, "spe":50, "types":["Ground", "Ice"]
+  }
+}
+
+, {
+  "name":"Swinub", "evos":["Piloswine"], "stats": {
+    "hp": 50, "atk":50, "def":40, "spa":30, "spd":30, "spe":50, "types":["Ground", "Ice"]
+  }
+}
+
+, {
+  "name":"Tangela", "evos":[], "stats": {
+    "hp": 65, "atk":55, "def":115, "spa":100, "spd":40, "spe":60, "types":["Grass"]
+  }
+}
+
+, {
+  "name":"Tauros", "evos":[], "stats": {
+    "hp": 75, "atk":100, "def":95, "spa":40, "spd":70, "spe":110, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Teddiursa", "evos":["Ursaring"], "stats": {
+    "hp": 60, "atk":80, "def":50, "spa":50, "spd":50, "spe":40, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Ursaring", "evos":[], "stats": {
+    "hp": 90, "atk":130, "def":75, "spa":75, "spd":75, "spe":55, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Tentacool", "evos":["Tentacruel"], "stats": {
+    "hp": 40, "atk":40, "def":35, "spa":50, "spd":100, "spe":70, "types":["Poison", "Water"]
+  }
+}
+
+, {
+  "name":"Tentacruel", "evos":[], "stats": {
+    "hp": 80, "atk":70, "def":65, "spa":80, "spd":120, "spe":100, "types":["Poison", "Water"]
+  }
+}
+
+, {
+  "name":"Togepi", "evos":["Togetic"], "stats": {
+    "hp": 35, "atk":20, "def":65, "spa":40, "spd":65, "spe":20, "types":["Normal"]
+  }
+}
+
+, {
+  "name":"Togetic", "evos":[], "stats": {
+    "hp": 55, "atk":40, "def":85, "spa":80, "spd":105, "spe":40, "types":["Flying", "Normal"]
+  }
+}
+
+, {
+  "name":"Croconaw", "evos":["Feraligatr"], "stats": {
+    "hp": 65, "atk":80, "def":80, "spa":59, "spd":63, "spe":58, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Feraligatr", "evos":[], "stats": {
+    "hp": 85, "atk":105, "def":100, "spa":79, "spd":83, "spe":78, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Totodile", "evos":["Croconaw"], "stats": {
+    "hp": 50, "atk":65, "def":64, "spa":44, "spd":48, "spe":43, "types":["Water"]
+  }
+}
+
+, {
+  "name":"Unown", "evos":[], "stats": {
+    "hp": 48, "atk":72, "def":48, "spa":72, "spd":48, "spe":48, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Venomoth", "evos":[], "stats": {
+    "hp": 70, "atk":65, "def":60, "spa":90, "spd":75, "spe":90, "types":["Bug", "Poison"]
+  }
+}
+
+, {
+  "name":"Venonat", "evos":["Venomoth"], "stats": {
+    "hp": 60, "atk":55, "def":50, "spa":40, "spd":55, "spe":45, "types":["Bug", "Poison"]
+  }
+}
+
+, {
+  "name":"Electrode", "evos":[], "stats": {
+    "hp": 60, "atk":50, "def":70, "spa":80, "spd":80, "spe":140, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Voltorb", "evos":["Electrode"], "stats": {
+    "hp": 40, "atk":30, "def":50, "spa":55, "spd":55, "spe":100, "types":["Electric"]
+  }
+}
+
+, {
+  "name":"Ninetales", "evos":[], "stats": {
+    "hp": 73, "atk":76, "def":75, "spa":81, "spd":100, "spe":100, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Vulpix", "evos":["Ninetales"], "stats": {
+    "hp": 38, "atk":41, "def":40, "spa":50, "spd":65, "spe":65, "types":["Fire"]
+  }
+}
+
+, {
+  "name":"Beedrill", "evos":[], "stats": {
+    "hp": 65, "atk":80, "def":40, "spa":45, "spd":80, "spe":75, "types":["Bug", "Poison"]
+  }
+}
+
+, {
+  "name":"Kakuna", "evos":["Beedrill"], "stats": {
+    "hp": 45, "atk":25, "def":50, "spa":25, "spd":25, "spe":35, "types":["Bug", "Poison"]
+  }
+}
+
+, {
+  "name":"Weedle", "evos":["Kakuna"], "stats": {
+    "hp": 40, "atk":35, "def":30, "spa":20, "spd":20, "spe":50, "types":["Bug", "Poison"]
+  }
+}
+
+, {
+  "name":"Wobbuffet", "evos":[], "stats": {
+    "hp": 190, "atk":33, "def":58, "spa":33, "spd":58, "spe":33, "types":["Psychic"]
+  }
+}
+
+, {
+  "name":"Quagsire", "evos":[], "stats": {
+    "hp": 95, "atk":85, "def":85, "spa":65, "spd":65, "spe":35, "types":["Ground", "Water"]
+  }
+}
+
+, {
+  "name":"Wooper", "evos":["Quagsire"], "stats": {
+    "hp": 55, "atk":45, "def":45, "spa":25, "spd":25, "spe":15, "types":["Ground", "Water"]
+  }
+}
+
+, {
+  "name":"Yanma", "evos":[], "stats": {
+    "hp": 65, "atk":65, "def":45, "spa":75, "spd":45, "spe":95, "types":["Bug", "Flying"]
+  }
+}
+
+, {
+  "name":"Zapdos", "evos":[], "stats": {
+    "hp": 90, "atk":90, "def":85, "spa":125, "spd":90, "spe":100, "types":["Electric", "Flying"]
+  }
+}
+
+, {
+  "name":"Crobat", "evos":[], "stats": {
+    "hp": 85, "atk":90, "def":80, "spa":70, "spd":80, "spe":130, "types":["Flying", "Poison"]
+  }
+}
+
+, {
+  "name":"Golbat", "evos":["Crobat"], "stats": {
+    "hp": 75, "atk":80, "def":70, "spa":65, "spd":75, "spe":90, "types":["Flying", "Poison"]
+  }
+}
+
+, {
+  "name":"Zubat", "evos":["Golbat"], "stats": {
+    "hp": 40, "atk":45, "def":35, "spa":30, "spd":40, "spe":55, "types":["Flying", "Poison"]
+  }
+}
+
+]

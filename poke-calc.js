@@ -3,7 +3,10 @@
     angular.module('pokecalc', [
         'ngRoute',
         'ngSanitize',
+        'pokecalc.routes',
+        'pokecalc.directives.autosuggest',
         'pokecalc.services.dex',
+        'pokecalc.services.pokeUtil',
         'pokecalc.dv'
     ]).config(['$routeProvider', 'ROUTES',
         function($routeProvider, ROUTES) {

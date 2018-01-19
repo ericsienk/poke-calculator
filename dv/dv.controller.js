@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('pokecalc.dv', ['ngRoute'])
+angular.module('pokecalc.dv', ['ngRoute', 'pokecalc.routes'])
     .config(['$routeProvider', 'ROUTES', function($routeProvider, ROUTES) {
         $routeProvider.when(ROUTES.DV, {
             templateUrl: 'dv/dv.html',
@@ -8,8 +8,27 @@ angular.module('pokecalc.dv', ['ngRoute'])
         });
 
     }])
-    .controller('dvCtrl', ['$scope', 'dexService'function($scope, dexService) {
+    .controller('dvCtrl', ['$scope', '$q', 'dexService', function($scope, $q, dexService) {
+        $scope.loaders = {
+            page: true
+        };
+
         dexService.getPokedex(2).then(function(response) {
-            console.log(response.data);
-        })
+            $scope.pokemon = response.data;
+            $scope.loaders.page = false;
+        });
+
+        $scope.onSearch = function(searchTerm) {
+            var deferred = $q.defer();
+            deferred.resolve({
+                data: $scope.pokemon
+            });
+
+            return deferred.promise;
+        }
+
+        $scope.onSelect = function(pokemon) {
+            $scope.selectedPokemon = pokemon;
+            return pokemon.name;
+        }
     }]);

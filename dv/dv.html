@@ -1,0 +1,13 @@
+<section>
+  <div data-ng-if="!loaders.page">
+    <autosuggest on-search="onSearch(searchTerm)" on-select="onSelect(item)" trigger-length="2">
+      <div class="PokemonSprite is-normalized-width">
+        <span class="sprite-xyicons-{{item.name.toLowerCase()}}"></span>
+      </div>
+      <span style="padding-right:10px">{{item.name}}</span>
+    </autosuggest>
+    <div>
+      
+    </div>
+  </div>
+</section>
