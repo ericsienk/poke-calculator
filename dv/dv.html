@@ -20,7 +20,7 @@
           </td>
         </tbody>
       </table>
-      <autosuggest placeholder="Select a Pokemon" on-search="onSearch(searchTerm)" on-select="onSelect(item)" on-empty="onEmpty()">
+      <autosuggest placeholder="Search a Pokemon..." on-search="onSearch(searchTerm)" on-select="onSelect(item)" on-empty="onEmpty()">
         <div class="PokemonSprite is-normalized-width">
           <span class="sprite-xyicons-{{item.name.toLowerCase()}}"></span>
             </div>
@@ -38,7 +38,7 @@
                     <tbody>
                       <tr data-ng-repeat="stat in stats track by $index" class="{{stat}}">
                         <td class="bit">{{statLabels[$index]}}</td>
-                        <td><input type="number" class="form-control" onclick="this.select()" data-ng-change="calculateStat(stat)" data-ng-model="calc.input[stat]" /></td>
+                        <td><input id="stat{{$index}}" next="#stat{{$index+1}}" enter-as-tab type="number" class="form-control" onclick="this.select()" data-ng-change="calculateStat(stat)" data-ng-model="calc.input[stat]" /></td>
                         <td class="text-right">{{calc.output[stat]}}</td>
                       </tr>
                     </tbody>

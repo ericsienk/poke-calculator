@@ -23,6 +23,10 @@ angular.module('pokecalc.dv', ['ngRoute', 'pokecalc.routes'])
             dexService.getPokedex(GEN).then(function(response) {
                 $scope.dex = response.data;
                 $scope.loaders.page = false;
+                //TODO
+                $scope.dex.forEach(function(poke) {
+                  delete poke.evos;
+                })
             });
 
             var clearCalculator = function() {

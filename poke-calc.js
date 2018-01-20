@@ -5,6 +5,7 @@
         'ngSanitize',
         'pokecalc.routes',
         'pokecalc.directives.autosuggest',
+        'pokecalc.directives.enterAsTab',
         'pokecalc.services.dex',
         'pokecalc.services.pokeUtil',
         'pokecalc.dv'
