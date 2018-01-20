@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+.bit, .bit th, .bit td {
+  font-family: 'Press Start 2P' !important;
+  font-size: 12px !important;
+}
+
+body {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/cubes.png);
+}
+
 .body-content {
-  padding: 50px 9px;
+  padding: 9px;
   margin: 0 auto;
   max-width: 1000px;
+  background: white;
+  box-shadow: 0px 0px 17px -6px black;
 }
 
 .autosuggestWrapper {
-  position: absolute;
+  position: relative;
   z-index: 999;
   overflow-y: scroll;
   box-shadow: 0 3px 4px -1px #666;
@@ -33,4 +45,48 @@
   cursor: pointer;
   background-color: rgb(255, 64, 64);
   font-style: italic;
+}
+
+.lg-sprite-wrapper {
+  height: 60px;
+  width: 60px;
+  margin: 9px;
+  display: inline-block;
+}
+
+.lg-sprite {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.table-align-middle.table td, .table-align-middle.table th {
+  vertical-align: middle !important;
+}
+
+.PokemonAltRow-types {
+  font-size: inherit;
+  width: 100px;
+  padding-right: inherit;
+}
+
+.hp {
+  background: #f5c6cb;
+}
+
+.atk, .def, .spa, .spd, .spe {
+  background: #bee5eb;
+}
+
+.nav-link.selected {
+  color: rgb(255, 64, 64);
+}
+
+.table-sm td, .table-sm th {
+    padding: .3rem 9px;
 }

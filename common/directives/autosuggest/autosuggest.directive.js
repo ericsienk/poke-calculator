@@ -7,7 +7,8 @@
                     restrict: 'AE',
                     scope: {
                         onSearch: '&', //function(searchTerm) : required - return search promise
-                        onSelect: '&', //function(selectedObject) : optional - contains selected list item
+                        onSelect: '&', //function(item) : optional - contains selected list item
+                        onEmpty: '&', //function() : optional - triggered on selection empty
                         width: '@', //string : optional - input width style
                         triggerLength: '@', //string : optional - default 2 char before search
                         name: '@', //string : optional - input name
@@ -20,6 +21,7 @@
                     templateUrl: 'common/directives/autosuggest/autosuggest.html',
                     link: function($scope, $element, $attrs) {
                         var SELECTED_INDEX = -1,
+                            CACHED_INPUT_VALUE,
                             TRIGGER_LENGTH = (!isNaN($scope.triggerLength) ? parseInt($scope.triggerLength) : 2);
                         $scope.LOADING = false;
 
@@ -33,6 +35,8 @@
                                 $scope.searchTerm = $scope.onSelect({
                                     item: item
                                 });
+
+                                CACHED_INPUT_VALUE = $scope.searchTerm;
                             }
                             $scope.blur();
                         };
@@ -64,6 +68,12 @@
                         $scope.blur = function() {
                             $scope.SHOW = false;
                             SELECTED_INDEX = -1;
+                            if(CACHED_INPUT_VALUE != $scope.searchTerm) {
+                              $scope.searchTerm = CACHED_INPUT_VALUE = '';
+                              if($scope.onEmpty instanceof Function) {
+                                $scope.onEmpty({});
+                              }
+                            }
                         };
 
                         var calcMaxHeight = function() {

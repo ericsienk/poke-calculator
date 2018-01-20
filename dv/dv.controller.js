@@ -8,27 +8,73 @@ angular.module('pokecalc.dv', ['ngRoute', 'pokecalc.routes'])
         });
 
     }])
-    .controller('dvCtrl', ['$scope', '$q', 'dexService', function($scope, $q, dexService) {
-        $scope.loaders = {
-            page: true
-        };
+    .controller('dvCtrl', ['$scope', '$q', 'dexService', 'pokeUtilService',
+        function($scope, $q, dexService, pokeUtilService) {
+            var GEN = 2;
 
-        dexService.getPokedex(2).then(function(response) {
-            $scope.pokemon = response.data;
-            $scope.loaders.page = false;
-        });
+            $scope.loaders = {
+                page: true
+            };
 
-        $scope.onSearch = function(searchTerm) {
-            var deferred = $q.defer();
-            deferred.resolve({
-                data: $scope.pokemon
+            $scope.stats = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
+            $scope.statLabels = ['HP', 'ATTACK', 'DEFENSE', 'SPCL.ATK', 'SPCL.DEF', 'SPEED'];
+
+
+            dexService.getPokedex(GEN).then(function(response) {
+                $scope.dex = response.data;
+                $scope.loaders.page = false;
             });
 
-            return deferred.promise;
-        }
+            var clearCalculator = function() {
+                $scope.calc = {
+                    input: {
+                        level: 5
+                    },
+                    output: {}
+                }
 
-        $scope.onSelect = function(pokemon) {
-            $scope.selectedPokemon = pokemon;
-            return pokemon.name;
+                $scope.stats.forEach(function(stat) {
+                    $scope.calc.input[stat] = 0;
+                    $scope.calc.output[stat] = 0;
+                });
+            }
+
+            $scope.calculate = function() {
+                $scope.stats.forEach(function(stat) {
+                    $scope.calculateStat(stat);
+                });
+            }
+
+            $scope.calculateStat = function(statName) {
+                var stat = $scope.calc.input[statName],
+                    level = $scope.calc.input.level;
+                $scope.calc.output[statName] = pokeUtilService.getDV(statName, stat, level, $scope.pokemon);
+            }
+
+            $scope.onSearch = function(searchTerm) {
+                var deferred = $q.defer();
+                deferred.resolve({
+                    data: $scope.dex
+                });
+
+                return deferred.promise;
+            }
+
+            $scope.onSelect = function(pokemon) {
+                clearCalculator();
+                $scope.pokemon = angular.copy(pokemon);
+                $scope.pokemon.spriteUrl = dexService.getSpriteUrl(GEN, pokemon);
+                $scope.pokemon.detailUrl = dexService.getDetailUrl(GEN, pokemon);
+                return pokemon.name;
+            }
+
+            $scope.onEmpty = function() {
+                clearCalculator();
+                $scope.pokemon = {
+                    spriteUrl: 'https://www.serebii.net/itemdex/sprites/pokeball.png'
+                };
+            }
+
+            $scope.onEmpty();
         }
-    }]);
+    ]);

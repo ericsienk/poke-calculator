@@ -1,13 +1,51 @@
 <section>
-  <div data-ng-if="!loaders.page">
-    <autosuggest on-search="onSearch(searchTerm)" on-select="onSelect(item)" trigger-length="2">
-      <div class="PokemonSprite is-normalized-width">
-        <span class="sprite-xyicons-{{item.name.toLowerCase()}}"></span>
-      </div>
-      <span style="padding-right:10px">{{item.name}}</span>
-    </autosuggest>
+  <h3 class="text-center">DV Calculator</h3>
+  <div data-ng-if="!loaders.page" style="max-width: 300px" class="center">
     <div>
-      
+      <table class="table table-align-middle table-sm">
+        <thead>
+          <tr>
+            <th>Pokémon</th>
+            <th class="text-center">Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <td>
+            <a class="lg-sprite-wrapper" target="_blank" ng-href="{{pokemon.detailUrl}}">
+              <div class="lg-sprite" style="background-image: url({{pokemon.spriteUrl}})" />
+            </a>
+          </td>
+          <td style="width: 20px">
+            <input class="form-control text-center" type="number" onclick="this.select()" data-ng-model="calc.input.level" data-ng-change="calculate()"/>
+          </td>
+        </tbody>
+      </table>
+      <autosuggest placeholder="Select a Pokemon" on-search="onSearch(searchTerm)" on-select="onSelect(item)" on-empty="onEmpty()">
+        <div class="PokemonSprite is-normalized-width">
+          <span class="sprite-xyicons-{{item.name.toLowerCase()}}"></span>
+            </div>
+            <span style="padding-right:10px">{{item.name}}</span>
+            </autosuggest>
+            <br/>
+            <div class="table-responsive">
+              <table class="table table-align-middle table-sm">
+                <thead>
+                  <tr>
+                    <th colspan="2">Stat</th>
+                    <th>DV</th>
+                  </tr>
+                  <thead>
+                    <tbody>
+                      <tr data-ng-repeat="stat in stats track by $index" class="{{stat}}">
+                        <td class="bit">{{statLabels[$index]}}</td>
+                        <td><input type="number" class="form-control" onclick="this.select()" data-ng-change="calculateStat(stat)" data-ng-model="calc.input[stat]" /></td>
+                        <td class="text-right">{{calc.output[stat]}}</td>
+                      </tr>
+                    </tbody>
+              </table>
+            </div>
+    </div>
+    <div>
     </div>
   </div>
 </section>
