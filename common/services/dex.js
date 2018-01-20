@@ -5,9 +5,10 @@
         .factory('dexService', ['$http', function($http) {
             var baseSpriteRoute = 'https://www.smogon.com/dex/media/sprites',
                 baseDetailRoute = 'http://www.smogon.com/dex',
+                baseHostRoute = window.location.contains('github') ? 'poke-calculator' : '';
                 genMap = {
                     2: {
-                        dex: '/common/data/dex.json',
+                        dex: baseHostRoute + '/common/data/dex.json',
                         spriteRoute: function(pokemonObject) {
                             return baseSpriteRoute + '/c/' + pokemonObject.name.toLowerCase() + '.gif'
                         },
