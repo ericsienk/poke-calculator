@@ -5,7 +5,7 @@
         .factory('dexService', ['$http', function($http) {
             var baseSpriteRoute = 'https://www.smogon.com/dex/media/sprites',
                 baseDetailRoute = 'http://www.smogon.com/dex',
-                baseHostRoute = window.location.host.indexOf('github') > -1 ? 'poke-calculator' : '',
+                baseHostRoute = window.location.host.indexOf('github') > -1 ? '/poke-calculator' : '',
                 genMap = {
                     2: {
                         dex: baseHostRoute + '/common/data/dex.json',
