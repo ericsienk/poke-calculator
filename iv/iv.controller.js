@@ -1,15 +1,15 @@
 'use strict';
 
-angular.module('pokecalc.dv', ['ngRoute', 'pokecalc.routes'])
+angular.module('pokecalc.iv', ['ngRoute', 'pokecalc.routes'])
     .config(['$routeProvider', 'ROUTES', function($routeProvider, ROUTES) {
-        $routeProvider.when(ROUTES.DV, {
-            templateUrl: 'dv/dv.html',
-            controller: 'dvCtrl'
+        $routeProvider.when(ROUTES.IV, {
+            templateUrl: 'iv/iv.html',
+            controller: 'ivCtrl'
         });
     }])
-    .controller('dvCtrl', ['$scope', '$q', 'dexService', 'pokeUtilService', 'GEN', 'STATS', 'STAT_LABELS',
+    .controller('ivCtrl', ['$scope', '$q', 'dexService', 'pokeUtilService', 'GEN', 'STATS', 'STAT_LABELS',
         function($scope, $q, dexService, pokeUtilService, GEN, STATS, STAT_LABELS) {
-            var GEN_NUM = GEN.GSC;
+            var GEN_NUM = GEN.SM;
             $scope.loaders = {
                 page: true
             };
@@ -37,7 +37,7 @@ angular.module('pokecalc.dv', ['ngRoute', 'pokecalc.routes'])
             $scope.calculateStat = function(statName) {
                 var stat = $scope.calc.input[statName],
                     level = $scope.calc.input.level;
-                $scope.calc.output[statName] = pokeUtilService.getDV(statName, stat, level, $scope.pokemon);
+                $scope.calc.output[statName] = pokeUtilService.getIV();//TODO
             };
 
             $scope.onSearch = function(searchTerm) {
@@ -70,11 +70,12 @@ angular.module('pokecalc.dv', ['ngRoute', 'pokecalc.routes'])
               $scope.onEmpty();
 
               dexService.getPokedex(GEN_NUM).then(function(response) {
-                  $scope.dex = response.data;
+                  $scope.dex = [];
                   $scope.loaders.page = false;
-                  //TODO make custom search filter
-                  $scope.dex.forEach(function(poke) {
-                    delete poke.evos;
+                  response.data.forEach(function(poke) {
+                    pokeUtilService.separateAltForms(poke, function(altForm) {
+                      $scope.dex.push(altForm)
+                    });
                   });
               });
             }

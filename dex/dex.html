@@ -1,0 +1,38 @@
+<section>
+  <div>
+    <input  class="form-control" placeholder="search..." ng-model="filters.search"/>
+    <br/>
+    <table class="table table-sm">
+      <thead>
+        <tr class="text-center stat-row no-padding">
+          <th class="stat-cell" ng-repeat="stat in stats">
+            <button class="sort-button" ng-click="changeOrder(stat)">
+              {{stat}}
+              <i class="fa fa-chevron-{{(order.by == ('stats.' + stat)) ? (order.desc ? 'up' : 'down') : ''}}"></i>
+            </button>
+          </th>
+        </tr>
+      </thead>
+      <tbody ng-repeat="poke in dex | filter : filters.search | orderBy : order.by : order.desc  track by $index">
+        <tr>
+          <td colspan="6">
+            <div class="PokemonSprite is-normalized-width">
+              <span class="{{getSpriteClass(poke)}}"></span>
+            </div>
+            <a href="{{getSmogonUrl(poke)}}" target="_blank" style="padding-right:10px">{{poke.name}} ({{poke.stats.formats[0]}})</a>
+            <div class="PokemonAltRow-types">
+              <ul class="TypeList">
+                <li ng-repeat="type in poke.stats.types track by $index">
+                  <a href="" class="Type {{type.toLowerCase()}}">{{type}}</a>
+                </li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+        <tr class="text-center stat-row">
+          <td class="stat-cell" ng-repeat="stat in stats">{{poke.stats[stat]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

@@ -6,7 +6,7 @@
          ng-model="searchTerm" />
   <div class="autosuggestWrapper">
     <ul class="autosuggestContainer" data-ng-if="SHOW">
-      <li class="autosuggestItem" data-ng-repeat="item in filteredList" data-ng-mousedown="select(item)">
+      <li class="autosuggestItem" data-ng-repeat="item in filteredList track by $index | limitTo: 50" data-ng-mousedown="select(item)">
         <div auto-transclude></div>
       </li>
       <li class="autosuggestItem" data-ng-if="!filteredList.length && !LOADING">No results</li>

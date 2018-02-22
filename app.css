@@ -4,6 +4,25 @@
   font-size: 12px !important;
 }
 
+.PokemonAltRow-types {
+  font-size: 10px;
+  float: right;
+  width: inherit;
+  padding: 0;
+}
+
+.table td, .table th {
+  border: none;
+}
+
+.stat-row {
+  font-size: 12px;
+}
+
+.stat-cell {
+  width: 16.6666666667;
+}
+
 body {
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/cubes.png);
 }
@@ -65,14 +84,29 @@ body {
   margin: 0 auto;
 }
 
-.table-align-middle.table td, .table-align-middle.table th {
-  vertical-align: middle !important;
+.table-sm .no-padding th {
+  padding: 0;
 }
 
-.PokemonAltRow-types {
-  font-size: inherit;
-  width: 100px;
-  padding-right: inherit;
+.sort-button {
+  height: 37px;
+  width: 100%;
+  font-size: 12px;
+  text-align: left;
+  padding: 0;
+  padding-left: 6px;
+  background: white;
+  border: none;
+  border-radius: 18px;
+  border-right: 4px solid #dee2e6;
+}
+
+.sort-button:focus{
+    outline: none;
+}
+
+.table-align-middle.table td, .table-align-middle.table th {
+  vertical-align: middle !important;
 }
 
 .hp {
@@ -88,5 +122,60 @@ body {
 }
 
 .table-sm td, .table-sm th {
-    padding: .3rem 9px;
+  padding: .3rem 9px;
+}
+
+.hexagon-stats {
+  transform: rotateZ(-30deg);
+  position: absolute;
+  z-index: 99;
+  list-style: none;
+  left: 55px;
+  -webkit-padding-start: 0;
+}
+
+.hexagon-wrapper {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+  transform: rotateZ(30deg);
+}
+
+#hex3 {
+  width: 258px;
+  height: 258px;
+  position: relative;
+}
+
+#color1 {
+  background-color: #39D;
+}
+
+.hexagon {
+  height: 100%;
+  width: calc(100% * 0.57735);
+  display: inline-block;
+}
+
+.hexagon:before {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(60deg);
+}
+
+.hexagon:after {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(-60deg);
 }

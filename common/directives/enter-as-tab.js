@@ -7,6 +7,7 @@
                     if (event.which === 13) {
                         event.preventDefault();
                         angular.element(attrs.next).focus();
+                        angular.element(attrs.next).select();
                     }
                 });
             }

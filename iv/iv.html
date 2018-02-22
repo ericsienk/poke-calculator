@@ -1,5 +1,5 @@
 <section>
-  <h3 class="text-center">DV Calculator</h3>
+  <h3 class="text-center">IV Calculator</h3>
   <div data-ng-if="!loaders.page" style="max-width: 300px" class="center">
     <div>
       <table class="table table-align-middle table-sm">
@@ -27,25 +27,18 @@
         <span style="padding-right:10px">{{item.name}}</span>
       </autosuggest>
       <br/>
-      <div class="table-responsive">
-        <table class="table table-align-middle table-sm">
-          <thead>
-            <tr>
-              <th colspan="2">Stat</th>
-              <th>DV</th>
-            </tr>
-            <thead>
-              <tbody>
-                <tr data-ng-repeat="stat in stats track by $index" class="{{stat}}">
-                  <td class="bit">{{statLabels[$index]}}</td>
-                  <td><input id="stat{{$index}}" next="#stat{{$index+1}}" enter-as-tab type="number" class="form-control" onclick="this.select()" data-ng-change="calculateStat(stat)" data-ng-model="calc.input[stat]" /></td>
-                  <td class="text-right">{{calc.output[stat]}}</td>
-                </tr>
-              </tbody>
-        </table>
+      <div>
+        <div id="hex3" class="hexagon-wrapper">
+          <ul class="hexagon-stats">
+            <li data-ng-repeat="stat in stats track by $index" class="{{stat}}">
+              <span>{{statLabels[$index]}}</span>
+              <!-- <input id="stat{{$index}}" next="#stat{{$index+1}}" enter-as-tab type="number" class="form-control" onclick="this.select()" data-ng-change="calculateStat(stat)" data-ng-model="calc.input[stat]" /> -->
+            </li>
+          </ul>
+          <div id="color1" class="hexagon">
+          </div>
+        </div>
       </div>
-    </div>
-    <div>
     </div>
   </div>
 </section>
