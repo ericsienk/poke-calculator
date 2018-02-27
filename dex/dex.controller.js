@@ -31,22 +31,19 @@ angular.module('pokecalc.dex', ['ngRoute', 'pokecalc.routes'])
             }
 
             $scope.getSpriteClass = function(pokemon) {
-              return 'sprite-xyicons-' + pokemon.name.toLowerCase().replace(/\s/g, '_');
+                return 'sprite-xyicons-' + pokemon.name.toLowerCase().replace(/\s/g, '_');
             }
-
 
             var isPokemonEvolved = function(pokemon) {
                 return Boolean(pokemon && pokemon.evos && !pokemon.evos.length);
             };
 
-            var pokemonHasFormats = function(pokemon, formats) {
+            var pokemonHasFormats = function(pokemon, formatsMap) {
                 var foundCount = 0;
                 if (pokemon.stats.formats) {
                     for (var i = 0; i < pokemon.stats.formats.length; i++) {
-                        for (var j = 0; j < formats.length; j++) {
-                            if (pokemon.stats.formats[i] === formats[j]) {
-                                foundCount++;
-                            }
+                        if (formatsMap[pokemon.stats.formats[i]]) {
+                            foundCount++;
                         }
                     }
                 }
@@ -54,21 +51,45 @@ angular.module('pokecalc.dex', ['ngRoute', 'pokecalc.routes'])
                 return foundCount;
             }
 
+            $scope.selected = {
+                formats: {
+                    "Uber": false,
+                    "OU": true,
+                    "UU": true,
+                    "RU": true,
+                    "NU": true,
+                    "PU": true,
+                    "LC": false
+                }
+            };
+
+            $scope.filterDex = function(override) {
+              if(!override) {
+                $scope.filteredDex = [];
+                $scope.dex.forEach(function(poke) {
+                    if (pokemonHasFormats(poke, $scope.selected.formats)) {
+                        $scope.filteredDex.push(poke);
+                    }
+                });
+              }
+            };
+
             var initialize = function() {
                 $scope.stats = STATS;
                 $scope.statLabels = STAT_LABELS[GEN_NUM];
+                $scope.formats = ["Uber", "OU", "UU", "RU", "NU", "PU", "LC"];
 
                 dexService.getPokedex(GEN_NUM).then(function(response) {
                     $scope.dex = [];
                     $scope.loaders.page = false;
                     response.data.forEach(function(poke) {
                         pokeUtilService.separateAltForms(poke, function(altForm, isAlt) {
-                            if (isPokemonEvolved(altForm) && !isAlt && !pokemonHasFormats(altForm, ["Uber", "PU", "LC"])) {
+                            if (isPokemonEvolved(altForm) && !isAlt) {
                                 $scope.dex.push(altForm)
                             };
                         });
                     });
-                    console.log($scope.dex);
+                    $scope.filterDex();
                 });
             }
 
