@@ -1,19 +1,25 @@
 <section>
   <div>
-    <input class="form-control" placeholder="search..." ng-model="filters.search" />
+    <input class="form-control" placeholder="search..."
+        ng-model-options="{updateOn: 'default blur click', debounce: { 'default': 500, 'blur': 0 }}"
+        ng-model="filters.search" />
     <br/>
     <a class="fab " ng-class="{opened: opened}">
       <i ng-click="opened = !opened; filterDex(opened)" class="fa fa-{{opened ? 'close' : 'filter'}}"></i>
       <div class="open-content">
         <div>
           <p class="text-white">Selected Formats</p>
-          <div class="btn-group-vertical mr-2">
-            <button type="button" ng-class="{'selected-button': selected.formats[format]}"
-                                  ng-click="selected.formats[format] = !selected.formats[format]"
-                                  ng-repeat="format in formats" class="btn btn-secondary">
+            <div class="boop" ng-class="{'selected-boop': selected.formats[format]}"
+                              ng-click="selected.formats[format] = !selected.formats[format]"
+                              ng-repeat="format in formats" class="btn btn-secondary">
                   {{format}}
-            </button>
-          </div>
+            </div>
+        </div>
+        <br/>
+        <div>
+          <p class="text-white">Form Options</p>
+          <div class="boop" ng-class="{'selected-boop': selected.allowPreEvo}" ng-click="selected.allowPreEvo = !selected.allowPreEvo">Pre-evolved</div>
+          <div class="boop" ng-class="{'selected-boop': selected.allowAlt}" ng-click="selected.allowAlt = !selected.allowAlt">Alt-forms</div>
         </div>
       </div>
     </a>

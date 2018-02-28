@@ -125,7 +125,16 @@ body {
   padding: .3rem 9px;
 }
 
-.selected-button {
+.boop {
+  display: inline-block;
+  padding: 6px;
+  border-radius: 6px;
+  color: white;
+  border: 1px solid #80e6cc;
+  margin: 3px;
+}
+
+.selected-boop {
   background: #545b62
 }
 

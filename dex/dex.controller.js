@@ -60,15 +60,28 @@ angular.module('pokecalc.dex', ['ngRoute', 'pokecalc.routes'])
                     "NU": true,
                     "PU": true,
                     "LC": false
-                }
+                },
+                allowPreEvo: false,
+                allowAlt: false
             };
 
             $scope.filterDex = function(override) {
+              var allow = true;
               if(!override) {
                 $scope.filteredDex = [];
                 $scope.dex.forEach(function(poke) {
-                    if (pokemonHasFormats(poke, $scope.selected.formats)) {
-                        $scope.filteredDex.push(poke);
+                    allow = Boolean(pokemonHasFormats(poke, $scope.selected.formats));
+
+                    if(!$scope.selected.allowPreEvo) {
+                      allow = (allow && (isPokemonEvolved(poke)));
+                    }
+
+                    if($scope.selected.allowAlt) {
+                      allow = (allow || poke.isAlt);
+                    }
+
+                    if(allow) {
+                      $scope.filteredDex.push(poke);
                     }
                 });
               }
@@ -84,9 +97,8 @@ angular.module('pokecalc.dex', ['ngRoute', 'pokecalc.routes'])
                     $scope.loaders.page = false;
                     response.data.forEach(function(poke) {
                         pokeUtilService.separateAltForms(poke, function(altForm, isAlt) {
-                            if (isPokemonEvolved(altForm) && !isAlt) {
-                                $scope.dex.push(altForm)
-                            };
+                            altForm.isAlt = isAlt;
+                            $scope.dex.push(altForm)
                         });
                     });
                     $scope.filterDex();
