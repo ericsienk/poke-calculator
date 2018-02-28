@@ -76,8 +76,8 @@ angular.module('pokecalc.dex', ['ngRoute', 'pokecalc.routes'])
                       allow = (allow && (isPokemonEvolved(poke)));
                     }
 
-                    if($scope.selected.allowAlt) {
-                      allow = (allow || poke.isAlt);
+                    if(!$scope.selected.allowAlt) {
+                      allow = (allow && !poke.isAlt);
                     }
 
                     if(allow) {
