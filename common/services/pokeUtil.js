@@ -21,13 +21,17 @@
                 },
                 separateAltForms: function(pokemonObject, onNewPokemonObject) {
                   var suffix;
-                  for(var i = 0; i < pokemonObject.alts.length; i++) {
-                    suffix = pokemonObject.alts[i].suffix;
-                    onNewPokemonObject({
-                      name: pokemonObject.name + (suffix ? EM_DASH + suffix : ''),
-                      stats: pokemonObject.alts[i],
-                      evos: pokemonObject.evos
-                    }, Boolean(i));
+                  if(pokemonObject.alts instanceof Array) {
+                    for(var i = 0; i < pokemonObject.alts.length; i++) {
+                      suffix = pokemonObject.alts[i].suffix;
+                      onNewPokemonObject({
+                        name: pokemonObject.name + (suffix ? EM_DASH + suffix : ''),
+                        stats: pokemonObject.alts[i],
+                        evos: pokemonObject.evos
+                      }, Boolean(i));
+                    }
+                  } else {
+                    onNewPokemonObject(pokemonObject, false);//legacy format
                   }
                 }
             };

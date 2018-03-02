@@ -7,9 +7,10 @@ angular.module('pokecalc.dex', ['ngRoute', 'pokecalc.routes'])
             controller: 'dexCtrl'
         });
     }])
-    .controller('dexCtrl', ['$scope', '$q', 'dexService', 'pokeUtilService', 'GEN', 'STATS', 'STAT_LABELS',
-        function($scope, $q, dexService, pokeUtilService, GEN, STATS, STAT_LABELS) {
-            var GEN_NUM = GEN.SM;
+    .controller('dexCtrl', ['$scope', '$q', 'dexService', 'pokeUtilService', 'GEN', 'GEN_LIST', 'STATS', 'STAT_LABELS',
+        function($scope, $q, dexService, pokeUtilService, GEN, GEN_LIST, STATS, STAT_LABELS) {
+            $scope.gens = GEN_LIST;
+            var GEN_NUM;
             $scope.loaders = {
                 page: true
             };
@@ -31,7 +32,7 @@ angular.module('pokecalc.dex', ['ngRoute', 'pokecalc.routes'])
             }
 
             $scope.getSpriteClass = function(pokemon) {
-                return 'sprite-xyicons-' + pokemon.name.toLowerCase().replace(/\s/g, '_');
+                return 'sprite-xyicons-' + pokemon.name.toLowerCase().replace(/\s/g, '_').replace(/\./g, '');
             }
 
             var isPokemonEvolved = function(pokemon) {
@@ -87,22 +88,27 @@ angular.module('pokecalc.dex', ['ngRoute', 'pokecalc.routes'])
               }
             };
 
+            $scope.getDex = function(gen) {
+              $scope.selected.gen = gen;
+              GEN_NUM = gen.id;
+              dexService.getPokedex(GEN_NUM).then(function(response) {
+                  $scope.dex = [];
+                  $scope.loaders.page = false;
+                  response.data.forEach(function(poke) {
+                      pokeUtilService.separateAltForms(poke, function(altForm, isAlt) {
+                          altForm.isAlt = isAlt;
+                          $scope.dex.push(altForm)
+                      });
+                  });
+                  $scope.filterDex();
+              });
+            }
+
             var initialize = function() {
+                $scope.formats = ["Uber", "OU", "UU", "RU", "NU", "PU", "LC"];
+                $scope.getDex($scope.gens[$scope.gens.length - 1]);
                 $scope.stats = STATS;
                 $scope.statLabels = STAT_LABELS[GEN_NUM];
-                $scope.formats = ["Uber", "OU", "UU", "RU", "NU", "PU", "LC"];
-
-                dexService.getPokedex(GEN_NUM).then(function(response) {
-                    $scope.dex = [];
-                    $scope.loaders.page = false;
-                    response.data.forEach(function(poke) {
-                        pokeUtilService.separateAltForms(poke, function(altForm, isAlt) {
-                            altForm.isAlt = isAlt;
-                            $scope.dex.push(altForm)
-                        });
-                    });
-                    $scope.filterDex();
-                });
             }
 
             initialize();

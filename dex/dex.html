@@ -21,13 +21,18 @@
           <div class="boop" ng-class="{'selected-boop': selected.allowPreEvo}" ng-click="selected.allowPreEvo = !selected.allowPreEvo">Pre-evolved</div>
           <div class="boop" ng-class="{'selected-boop': selected.allowAlt}" ng-click="selected.allowAlt = !selected.allowAlt">Alt-forms</div>
         </div>
+        <br/>
+        <div>
+          <p class="text-white">Generation</p>
+          <select style="max-width:300px" class="center-select center form-control sneaky-control" ng-model="selected.gen" ng-change="getDex(selected.gen)" ng-options="gen.name for gen in gens"></select>
+        </div>
       </div>
     </a>
     <div class="table-responsive">
       <table class="table table-sm">
         <thead>
           <tr class="text-center stat-row no-padding">
-            <th class="stat-cell" ng-repeat="stat in stats">
+            <th class="stat-width stat-cell" ng-repeat="stat in stats">
               <button class="sort-button" ng-click="changeOrder(stat)">
                 {{stat}}
                 <i class="fa fa-chevron-{{(order.by == ('stats.' + stat)) ? (order.desc ? 'up' : 'down') : ''}}"></i>
@@ -52,7 +57,7 @@
             </td>
           </tr>
           <tr class="text-center stat-row">
-            <td class="stat-cell" ng-repeat="stat in stats">{{poke.stats[stat]}}</td>
+            <td class="stat-width stat-cell" ng-repeat="stat in stats">{{poke.stats[stat]}}</td>
           </tr>
         </tbody>
       </table>

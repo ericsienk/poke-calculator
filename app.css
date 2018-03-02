@@ -109,6 +109,10 @@ body {
   vertical-align: middle !important;
 }
 
+.stat-width {
+  width: calc(100% / 6);
+}
+
 .hp {
   background: #f5c6cb;
 }
@@ -136,6 +140,16 @@ body {
 
 .selected-boop {
   background: #545b62
+}
+
+.sneaky-control {
+  background: none;
+  color: white;
+  transition: all .35s;
+}
+
+.center-select, .center-select option {
+  text-align: center;
 }
 
 .fab {

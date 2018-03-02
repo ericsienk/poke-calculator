@@ -9,5 +9,8 @@
     }).constant('GEN', {
         GSC: 2,
         SM: 7
-    }).constant('EM_DASH', '-');
+    }).constant('EM_DASH', '-').constant('GEN_LIST', [
+        {name: 'Gold & Silver', id: 2},
+        {name: 'Sun & Moon', id: 7}
+    ])
 }(angular));
